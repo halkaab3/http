@@ -1,7 +1,7 @@
 import requests
 from requests.exceptions import HTTPError
 
-for url in ['https://api.github.com', 'https://api.github.com/invalid']:
+for url in ['https://github.com', 'https://api.github.com/invalid']:
     try:
         response = requests.get(url)
 
