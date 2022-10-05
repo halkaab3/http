@@ -12,5 +12,5 @@ for url in ['https://github.com', 'https://api.github.com/invalid']:
     except Exception as err:
         print(f'Other error occurred: {err}')  # Python 3.6
     else:
-        print('Success!')
+        print('Succeded!')
         print(response)
